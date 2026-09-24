@@ -130,4 +130,6 @@ MAILERS = {
 CSRF_TRUSTED_ORIGINS = [
     "https://*.app.github.dev",
     "https://*.githubpreview.dev",
+    "https://localhost:8000",
+    "http://localhost:8000",
 ]
