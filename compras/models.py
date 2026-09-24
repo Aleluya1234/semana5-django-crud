@@ -4,6 +4,7 @@ from django.db import models
 class Producto(models.Model):
     nombre = models.CharField(max_length=120)
     cantidad = models.PositiveIntegerField(default=1)
+    comprado = models.BooleanField(default=False)
     creado = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
